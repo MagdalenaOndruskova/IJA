@@ -5,6 +5,8 @@
 
 **Programovací jazyk**: Java
 
+**Hodnotenie:** 80/80b
+
 ## Implementačné detaily: 
 Cielom projektu bolo implementovať MHD simulátor, ktorý po načítaní údajov zo súboru začne pohybovať vozidlá po mape. Vozidlá ktoré patria k tej istej linke majú tú istú farbu. Po kliknutí na vozidlo sa vyfarbí ich trasa na mape a v ľavom bočnom paneli sa ukáže jeho aktuálna trasa s názvom zastávok a časom odchodu z jednotlivých zástavok. Vozidlá sa postupne v čase objavujú na mape a miznú keď prídu na koniec trasy. 
 
