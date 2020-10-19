@@ -1,0 +1,1238 @@
+stops:
+- &Stop0 id: "U Prehrady"
+  coordinates:
+    x: 83.80928194047317
+    y: 253.05350974650224
+- &Stop1 id: "Zoo"
+  coordinates:
+    x: 92.73390123056234
+    y: 328.54091457517313
+- &Stop2 id: "U Vankovky"
+  coordinates:
+    x: 187.7152463537348
+    y: 496.8848035038888
+- &Stop3 id: "Slatina Zavod"
+  coordinates:
+    x: 317.9018437425025
+    y: 625.1321234317697
+- &Stop4 id: "Manesovy koleje"
+  coordinates:
+    x: 494.326135467019
+    y: 650.8917221155706
+- &Stop5 id: "Pred FEKTem"
+  coordinates:
+    x: 582.2467927791715
+    y: 590.6983799885637
+- &Stop6 id: "U FITu"
+  coordinates:
+    x: 719.5432099223549
+    y: 432.77530858929185
+- &Stop7 id: "K FSI"
+  coordinates:
+    x: 678.8250566757964
+    y: 479.6011848228341
+- &Stop8 id: "Podnikatelska"
+  coordinates:
+    x: 701.096159123212
+    y: 311.1442386848181
+- &Stop9 id: "U Inventecu"
+  coordinates:
+    x: 639.8969295522617
+    y: 169.23326764257536
+- &Stop10 id: "Hlavni nadrazi"
+  coordinates:
+    x: 507.56185662102797
+    y: 78.56247119198633
+- &Stop11 id: "Zelny Trh"
+  coordinates:
+    x: 619.0489389928695
+    y: 83.55443010415833
+- &Stop12 id: "U Tesca"
+  coordinates:
+    x: 361.9505212486042
+    y: 94.78293566466927
+- &Stop13 id: "Klusackova Lidl"
+  coordinates:
+    x: 178.31329289446634
+    y: 151.71955417432196
+- &Stop14 id: "Konecna"
+  coordinates:
+    x: 713.9811338647924
+    y: 179.95331913155363
+- &Stop16 id: "Slunecna"
+  coordinates:
+    x: 261.2898077716901
+    y: 353.4111084221629
+- &Stop17 id: "Sidliste"
+  coordinates:
+    x: 281.954786702909
+    y: 269.008559382193
+- &Stop18 id: "Pred Mostem"
+  coordinates:
+    x: 295.70096846965214
+    y: 409.863631400496
+- &Stop19 id: "U Tunelu"
+  coordinates:
+    x: 396.7392244274537
+    y: 578.9693435119344
+- &Stop20 id: "Na Upati"
+  coordinates:
+    x: 394.44036228120694
+    y: 619.8380038896539
+- &Stop21 id: "Slnecna"
+  coordinates:
+    x: 315.44016444469173
+    y: 548.9961617716899
+- &Stop22 id: "Slnecnicova"
+  coordinates:
+    x: 446.57431915989196
+    y: 322.9786111460255
+- &Stop23 id: "Fialova"
+  coordinates:
+    x: 353.53958335252514
+    y: 334.27121676656134
+- &Stop24 id: "Dubova"
+  coordinates:
+    x: 452.47240627786647
+    y: 378.87597278777594
+- &Stop25 id: "Bukova"
+  coordinates:
+    x: 429.8293503787834
+    y: 439.0588318879704
+- &Stop26 id: "Lesna"
+  coordinates:
+    x: 509.6652282793178
+    y: 608.826455336843
+- &Stop27 id: "Trnavska"
+  coordinates:
+    x: 505.9199149069093
+    y: 351.29413334721636
+- &Stop28 id: "Brnenska"
+  coordinates:
+    x: 595.2638890537883
+    y: 444.6089507895122
+- &Stop29 id: "Larryho"
+  coordinates:
+    x: 687.9378060963459
+    y: 374.5159280179759
+- &Stop30 id: "Wookeyho"
+  coordinates:
+    x: 594.1965921444328
+    y: 350.0762543805128
+- &Stop31 id: "Agilitacka"
+  coordinates:
+    x: 551.7831647461456
+    y: 254.14935409953915
+- &Stop32 id: "Hlavna"
+  coordinates:
+    x: 312.1000917246132
+    y: 150.5525510472807
+- &Stop33 id: "Prazska"
+  coordinates:
+    x: 434.29682270378316
+    y: 148.8586951491815
+- &Stop34 id: "Slovenska"
+  coordinates:
+    x: 449.4274493266635
+    y: 221.95544872682567
+- &Stop35 id: "Ondruskova"
+  coordinates:
+    x: 496.89155178550305
+    y: 179.76194939513744
+
+streets:
+- &Street0 name: "Maggie Ondruskove"
+  stopsOnStreet:
+  - *Stop0
+  - *Stop1
+  start:
+    x: 76.0
+    y: 187.0
+  end:
+    x: 100.0
+    y: 390.0
+  closed: false
+  traffic: 0.0
+- &Street1 name: "Zuzany Hradilove"
+  stopsOnStreet:
+  - *Stop2
+  start:
+    x: 100.0
+    y: 390.0
+  end:
+    x: 251.0
+    y: 574.0
+  closed: false
+  traffic: 0.0
+- &Street2 name: "Kolejni"
+  stopsOnStreet:
+  - *Stop3
+  start:
+    x: 251.0
+    y: 574.0
+  end:
+    x: 391.0
+    y: 681.0
+  closed: false
+  traffic: 0.0
+- &Street3 name: "Nadrazni"
+  stopsOnStreet:
+  - *Stop4
+  start:
+    x: 391.0
+    y: 681.0
+  end:
+    x: 542.0
+    y: 637.0
+  closed: false
+  traffic: 0.0
+- &Street4 name: "Namesti miru"
+  stopsOnStreet:
+  - *Stop5
+  start:
+    x: 542.0
+    y: 637.0
+  end:
+    x: 655.0
+    y: 507.0
+  closed: false
+  traffic: 0.0
+- &Street5 name: "Ceska"
+  stopsOnStreet:
+  - *Stop6
+  - *Stop7
+  start:
+    x: 655.0
+    y: 507.0
+  end:
+    x: 755.0
+    y: 392.0
+  closed: false
+  traffic: 0.0
+- &Street6 name: "Masarykova"
+  stopsOnStreet:
+  - *Stop8
+  start:
+    x: 755.0
+    y: 392.0
+  end:
+    x: 623.0
+    y: 194.0
+  closed: false
+  traffic: 0.0
+- &Street7 name: "Stefanikova"
+  stopsOnStreet:
+  - *Stop9
+  start:
+    x: 623.0
+    y: 194.0
+  end:
+    x: 696.0
+    y: 87.0
+  closed: false
+  traffic: 0.0
+- &Street8 name: "Slovanske Namesti"
+  stopsOnStreet:
+  - *Stop10
+  - *Stop11
+  start:
+    x: 696.0
+    y: 87.0
+  end:
+    x: 428.0
+    y: 75.0
+  closed: false
+  traffic: 0.0
+- &Street9 name: "Bratislavska"
+  stopsOnStreet:
+  - *Stop12
+  start:
+    x: 428.0
+    y: 75.0
+  end:
+    x: 221.0
+    y: 137.0
+  closed: false
+  traffic: 0.0
+- &Street10 name: "Pohorelicka"
+  stopsOnStreet:
+  - *Stop13
+  start:
+    x: 221.0
+    y: 137.0
+  end:
+    x: 76.0
+    y: 187.0
+  closed: false
+  traffic: 0.0
+- &Street11 name: "Skacelova"
+  stopsOnStreet:
+  - *Stop14
+  start:
+    x: 696.0
+    y: 87.0
+  end:
+    x: 755.0
+    y: 392.0
+  closed: false
+  traffic: 0.0
+- &Street12 name: "Klusackova"
+  stopsOnStreet:
+  - *Stop16
+  start:
+    x: 100.0
+    y: 390.0
+  end:
+    x: 315.0
+    y: 339.0
+  closed: false
+  traffic: 0.0
+- &Street13 name: "Vyrobni"
+  stopsOnStreet:
+  - *Stop17
+  start:
+    x: 315.0
+    y: 339.0
+  end:
+    x: 221.0
+    y: 137.0
+  closed: false
+  traffic: 0.0
+- &Street14 name: "Informacni"
+  stopsOnStreet:
+  - *Stop18
+  start:
+    x: 315.0
+    y: 339.0
+  end:
+    x: 251.0
+    y: 574.0
+  closed: false
+  traffic: 0.0
+- &Street15 name: "Technologicka"
+  stopsOnStreet:
+  - *Stop19
+  - *Stop20
+  start:
+    x: 400.0
+    y: 521.0
+  end:
+    x: 391.0
+    y: 681.0
+  closed: false
+  traffic: 0.0
+- &Street16 name: "Bozetechova"
+  stopsOnStreet:
+  - *Stop21
+  start:
+    x: 400.0
+    y: 521.0
+  end:
+    x: 251.0
+    y: 574.0
+
+  closed: false
+  traffic: 0.0
+- &Street17 name: "Dlouha"
+  stopsOnStreet:
+  - *Stop22
+  - *Stop23
+  start:
+    x: 475.0
+    y: 319.0
+  end:
+    x: 315.0
+    y: 339.0
+  closed: false
+  traffic: 0.0
+- &Street18 name: "Kolma"
+  stopsOnStreet:
+  - *Stop24
+  - *Stop25
+  start:
+    x: 400.0
+    y: 521.0
+  end:
+    x: 475.0
+    y: 319.0
+  closed: false
+  traffic: 0.0
+- &Street19 name: "Namesti svobody"
+  stopsOnStreet:
+  - *Stop26
+  start:
+    x: 400.0
+    y: 521.0
+  end:
+    x: 542.0
+    y: 637.0
+  closed: false
+  traffic: 0.0
+- &Street20 name: "Haskova"
+  stopsOnStreet:
+  - *Stop27
+  - *Stop28
+  start:
+    x: 655.0
+    y: 507.0
+  end:
+    x: 475.0
+    y: 319.0
+  closed: false
+  traffic: 0.0
+- &Street21 name: "Cejl"
+  stopsOnStreet:
+  - *Stop29
+  - *Stop30
+  start:
+    x: 755.0
+    y: 392.0
+  end:
+    x: 475.0
+    y: 319.0
+  closed: false
+  traffic: 0.0
+- &Street22 name: "Mendelova"
+  stopsOnStreet:
+  - *Stop31
+  start:
+    x: 475.0
+    y: 319.0
+  end:
+    x: 623.0
+    y: 194.0
+  closed: false
+  traffic: 0.0
+- &Street23 name: "Bozeny Nemcove"
+  stopsOnStreet:
+  - *Stop32
+  start:
+    x: 436.0
+    y: 171.0
+  end:
+    x: 221.0
+    y: 137.0
+  closed: false
+  traffic: 0.0
+- &Street24 name: "28. Rijna"
+  stopsOnStreet:
+  - *Stop33
+  start:
+    x: 436.0
+    y: 171.0
+  end:
+    x: 428.0
+    y: 75.0
+  closed: false
+  traffic: 0.0
+- &Street25 name: "Tresnova"
+  stopsOnStreet:
+  - *Stop34
+  start:
+    x: 436.0
+    y: 171.0
+  end:
+    x: 475.0
+    y: 319.0
+  closed: false
+  traffic: 0.0
+- &Street26 name: "Ulic26"
+  stopsOnStreet:
+  - *Stop35
+  start:
+    x: 623.0
+    y: 194.0
+  end:
+    x: 436.0
+    y: 171.0
+  closed: false
+  traffic: 0.0
+
+lines:
+- &Line0 name: "Linka0"
+  id: 10
+  color: "DC143C"
+  stops:
+    - *Stop1
+    - *Stop2
+    - *Stop21
+    - *Stop25
+    - *Stop24
+    - *Stop34
+    - *Stop33
+    - *Stop10
+    - *Stop11
+    - *Stop14
+- &Line1 name: "Linka1"
+  id: 20
+  color: "8A2BE2"
+  stops:
+    - *Stop16
+    - *Stop18
+    - *Stop3
+    - *Stop4
+    - *Stop26
+    - *Stop25
+    - *Stop24
+    - *Stop30
+    - *Stop29
+    - *Stop8
+    - *Stop9
+- &Line2 name: "Linka2"
+  id: 30
+  color: "FF69B4"
+  stops:
+    - *Stop13
+    - *Stop17
+    - *Stop23
+    - *Stop24
+    - *Stop25
+    - *Stop19
+    - *Stop20
+    - *Stop4
+    - *Stop5
+    - *Stop7
+    - *Stop6
+    - *Stop14
+    - *Stop10
+- &Line3 name: "Linka3"
+  id: 40
+  color: "D2691E"
+  stops:
+    - *Stop12
+    - *Stop32
+    - *Stop35
+    - *Stop31
+    - *Stop28
+    - *Stop5
+    - *Stop4
+    - *Stop20
+    - *Stop25
+    - *Stop22
+    - *Stop17
+vehicles:
+- &Vehicle0 name: "Vozidlo0"
+  line: *Line0
+  time_schedule:
+    - 08:00:00
+    - 08:18:00
+    - 08:45:30
+    - 09:09:00
+    - 09:33:30
+    - 09:44:00
+    - 10:07:00
+    - 10:19:00
+    - 10:40:30
+    - 10:57:00
+    - 11:21:00
+    - 11:48:30
+  speed: 4
+- &Vehicle1 name: "Vozidlo1"
+  line: *Line0
+  time_schedule:
+    - 09:00:00
+    - 09:18:00
+    - 09:45:30
+    - 10:09:00
+    - 10:33:30
+    - 10:44:00
+    - 11:07:00
+    - 11:19:00
+    - 11:40:30
+    - 11:57:00
+    - 12:21:00
+    - 12:48:30
+  speed: 4
+- &Vehicle2 name: "Vozidlo2"
+  line: *Line0
+  time_schedule:
+    - 10:00:00
+    - 10:18:00
+    - 10:45:30
+    - 11:09:00
+    - 11:33:30
+    - 11:44:00
+    - 12:07:00
+    - 12:19:00
+    - 12:40:30
+    - 12:57:00
+    - 13:21:00
+    - 13:48:30
+  speed: 4
+- &Vehicle3 name: "Vozidlo3"
+  line: *Line0
+  time_schedule:
+    - 11:00:00
+    - 11:18:00
+    - 11:45:30
+    - 12:09:00
+    - 12:33:30
+    - 12:44:00
+    - 13:07:00
+    - 13:19:00
+    - 13:40:30
+    - 13:57:00
+    - 14:21:00
+    - 14:48:30
+  speed: 4
+- &Vehicle4 name: "Vozidlo4"
+  line: *Line0
+  time_schedule:
+    - 12:00:00
+    - 12:18:00
+    - 12:45:30
+    - 13:09:00
+    - 13:33:30
+    - 13:44:00
+    - 14:07:00
+    - 14:19:00
+    - 14:40:30
+    - 14:57:00
+    - 15:21:00
+    - 15:48:30
+  speed: 4
+- &Vehicle5 name: "Vozidlo5"
+  line: *Line0
+  time_schedule:
+    - 13:00:00
+    - 13:18:00
+    - 13:45:30
+    - 14:09:00
+    - 14:33:30
+    - 14:44:00
+    - 15:07:00
+    - 15:19:00
+    - 15:40:30
+    - 15:57:00
+    - 16:21:00
+    - 16:48:30
+  speed: 4
+- &Vehicle6 name: "Vozidlo6"
+  line: *Line0
+  time_schedule:
+    - 14:00:00
+    - 14:18:00
+    - 14:45:30
+    - 15:09:00
+    - 15:33:30
+    - 15:44:00
+    - 16:07:00
+    - 16:19:00
+    - 16:40:30
+    - 16:57:00
+    - 17:21:00
+    - 17:48:30
+  speed: 4
+- &Vehicle7 name: "Vozidlo7"
+  line: *Line0
+  time_schedule:
+    - 15:00:00
+    - 15:18:00
+    - 15:45:30
+    - 16:09:00
+    - 16:33:30
+    - 16:44:00
+    - 17:07:00
+    - 17:19:00
+    - 17:40:30
+    - 17:57:00
+    - 18:21:00
+    - 18:48:30
+  speed: 4
+- &Vehicle8 name: "Vozidlo8"
+  line: *Line0
+  time_schedule:
+    - 16:00:00
+    - 16:18:00
+    - 16:45:30
+    - 17:09:00
+    - 17:33:30
+    - 17:44:00
+    - 18:07:00
+    - 18:19:00
+    - 18:40:30
+    - 18:57:00
+    - 19:21:00
+    - 19:48:30
+  speed: 4
+- &Vehicle9 name: "Vozidlo9"
+  line: *Line0
+  time_schedule:
+    - 17:00:00
+    - 17:18:00
+    - 17:45:30
+    - 18:09:00
+    - 18:33:30
+    - 18:44:00
+    - 19:07:00
+    - 19:19:00
+    - 19:40:30
+    - 19:57:00
+    - 20:21:00
+    - 20:48:30
+  speed: 4
+- &Vehicle10 name: "Vozidlo10"
+  line: *Line0
+  time_schedule:
+    - 18:00:00
+    - 18:18:00
+    - 18:45:30
+    - 19:09:00
+    - 19:33:30
+    - 19:44:00
+    - 20:07:00
+    - 20:19:00
+    - 20:40:30
+    - 20:57:00
+    - 21:21:00
+    - 21:48:30
+  speed: 4
+- &Vehicle11 name: "Vozidlo11"
+  line: *Line1
+  time_schedule:
+    - 08:15:00
+    - 08:31:30
+    - 08:47:00
+    - 09:15:00
+    - 09:37:30
+    - 09:49:00
+    - 10:14:30
+    - 10:23:30
+    - 10:44:30
+    - 10:56:30
+    - 11:16:00
+    - 11:35:30
+    - 11:45:30
+  speed: 5
+- &Vehicle12 name: "Vozidlo12"
+  line: *Line1
+  time_schedule:
+    - 09:15:00
+    - 09:31:30
+    - 09:47:00
+    - 10:15:00
+    - 10:37:30
+    - 10:49:00
+    - 11:14:30
+    - 11:23:30
+    - 11:44:30
+    - 11:56:30
+    - 12:16:00
+    - 12:35:30
+    - 12:45:30
+  speed: 5
+- &Vehicle13 name: "Vozidlo13"
+  line: *Line1
+  time_schedule:
+    - 10:15:00
+    - 10:31:30
+    - 10:47:00
+    - 11:15:00
+    - 11:37:30
+    - 11:49:00
+    - 12:14:30
+    - 12:23:30
+    - 12:44:30
+    - 12:56:30
+    - 13:16:00
+    - 13:35:30
+    - 13:45:30
+  speed: 5
+- &Vehicle14 name: "Vozidlo14"
+  line: *Line1
+  time_schedule:
+    - 11:15:00
+    - 11:31:30
+    - 11:47:00
+    - 12:15:00
+    - 12:37:30
+    - 12:49:00
+    - 13:14:30
+    - 13:23:30
+    - 13:44:30
+    - 13:56:30
+    - 14:16:00
+    - 14:35:30
+    - 14:45:30
+  speed: 5
+- &Vehicle15 name: "Vozidlo15"
+  line: *Line1
+  time_schedule:
+    - 12:15:00
+    - 12:31:30
+    - 12:47:00
+    - 13:15:00
+    - 13:37:30
+    - 13:49:00
+    - 14:14:30
+    - 14:23:30
+    - 14:44:30
+    - 14:56:30
+    - 15:16:00
+    - 15:35:30
+    - 15:45:30
+  speed: 5
+- &Vehicle16 name: "Vozidlo16"
+  line: *Line1
+  time_schedule:
+    - 13:15:00
+    - 13:31:30
+    - 13:47:00
+    - 14:15:00
+    - 14:37:30
+    - 14:49:00
+    - 15:14:30
+    - 15:23:30
+    - 15:44:30
+    - 15:56:30
+    - 16:16:00
+    - 16:35:30
+    - 16:45:30
+  speed: 5
+- &Vehicle17 name: "Vozidlo17"
+  line: *Line1
+  time_schedule:
+    - 14:15:00
+    - 14:31:30
+    - 14:47:00
+    - 15:15:00
+    - 15:37:30
+    - 15:49:00
+    - 16:14:30
+    - 16:23:30
+    - 16:44:30
+    - 16:56:30
+    - 17:16:00
+    - 17:35:30
+    - 17:45:30
+  speed: 5
+- &Vehicle18 name: "Vozidlo18"
+  line: *Line1
+  time_schedule:
+    - 15:15:00
+    - 15:31:30
+    - 15:47:00
+    - 16:15:00
+    - 16:37:30
+    - 16:49:00
+    - 17:14:30
+    - 17:23:30
+    - 17:44:30
+    - 17:56:30
+    - 18:16:00
+    - 18:35:30
+    - 18:45:30
+  speed: 5
+- &Vehicle19 name: "Vozidlo19"
+  line: *Line1
+  time_schedule:
+    - 16:15:00
+    - 16:31:30
+    - 16:47:00
+    - 17:15:00
+    - 17:37:30
+    - 17:49:00
+    - 18:14:30
+    - 18:23:30
+    - 18:44:30
+    - 18:56:30
+    - 19:16:00
+    - 19:35:30
+    - 19:45:30
+  speed: 5
+- &Vehicle20 name: "Vozidlo20"
+  line: *Line1
+  time_schedule:
+    - 17:15:00
+    - 17:31:30
+    - 17:47:00
+    - 18:15:00
+    - 18:37:30
+    - 18:49:00
+    - 19:14:30
+    - 19:23:30
+    - 19:44:30
+    - 19:56:30
+    - 20:16:00
+    - 20:35:30
+    - 20:45:30
+  speed: 5
+- &Vehicle21 name: "Vozidlo21"
+  line: *Line1
+  time_schedule:
+    - 18:15:00
+    - 18:31:30
+    - 18:47:00
+    - 19:15:00
+    - 19:37:30
+    - 19:49:00
+    - 20:14:30
+    - 20:23:30
+    - 20:44:30
+    - 20:56:30
+    - 21:16:00
+    - 21:35:30
+    - 21:45:30
+  speed: 5
+- &Vehicle22 name: "Vozidlo22"
+  line: *Line2
+  time_schedule:
+    - 08:30:00
+    - 08:41:00
+    - 09:02:30
+    - 09:16:30
+    - 09:28:30
+    - 09:40:00
+    - 09:49:00
+    - 10:06:00
+    - 10:12:30
+    - 10:32:00
+    - 10:45:30
+    - 11:03:00
+    - 11:11:30
+    - 11:41:00
+    - 11:48:00
+  speed: 5
+- &Vehicle23 name: "Vozidlo23"
+  line: *Line2
+  time_schedule:
+    - 09:30:00
+    - 09:41:00
+    - 10:02:30
+    - 10:16:30
+    - 10:28:30
+    - 10:40:00
+    - 10:49:00
+    - 11:06:00
+    - 11:12:30
+    - 11:32:00
+    - 11:45:30
+    - 12:03:00
+    - 12:11:30
+    - 12:41:00
+    - 12:48:00
+  speed: 5
+- &Vehicle24 name: "Vozidlo24"
+  line: *Line2
+  time_schedule:
+    - 10:30:00
+    - 10:41:00
+    - 11:02:30
+    - 11:16:30
+    - 11:28:30
+    - 11:40:00
+    - 11:49:00
+    - 12:06:00
+    - 12:12:30
+    - 12:32:00
+    - 12:45:30
+    - 13:03:00
+    - 13:11:30
+    - 13:41:00
+    - 13:48:00
+  speed: 5
+- &Vehicle25 name: "Vozidlo25"
+  line: *Line2
+  time_schedule:
+    - 11:30:00
+    - 11:41:00
+    - 12:02:30
+    - 12:16:30
+    - 12:28:30
+    - 12:40:00
+    - 12:49:00
+    - 13:06:00
+    - 13:12:30
+    - 13:32:00
+    - 13:45:30
+    - 14:03:00
+    - 14:11:30
+    - 14:41:00
+    - 14:48:00
+  speed: 5
+- &Vehicle26 name: "Vozidlo26"
+  line: *Line2
+  time_schedule:
+    - 12:30:00
+    - 12:41:00
+    - 13:02:30
+    - 13:16:30
+    - 13:28:30
+    - 13:40:00
+    - 13:49:00
+    - 14:06:00
+    - 14:12:30
+    - 14:32:00
+    - 14:45:30
+    - 15:03:00
+    - 15:11:30
+    - 15:41:00
+    - 15:48:00
+  speed: 5
+- &Vehicle27 name: "Vozidlo27"
+  line: *Line2
+  time_schedule:
+    - 13:30:00
+    - 13:41:00
+    - 14:02:30
+    - 14:16:30
+    - 14:28:30
+    - 14:40:00
+    - 14:49:00
+    - 15:06:00
+    - 15:12:30
+    - 15:32:00
+    - 15:45:30
+    - 16:03:00
+    - 16:11:30
+    - 16:41:00
+    - 16:48:00
+  speed: 5
+- &Vehicle28 name: "Vozidlo28"
+  line: *Line2
+  time_schedule:
+    - 14:30:00
+    - 14:41:00
+    - 15:02:30
+    - 15:16:30
+    - 15:28:30
+    - 15:40:00
+    - 15:49:00
+    - 16:06:00
+    - 16:12:30
+    - 16:32:00
+    - 16:45:30
+    - 17:03:00
+    - 17:11:30
+    - 17:41:00
+    - 17:48:00
+  speed: 5
+- &Vehicle29 name: "Vozidlo29"
+  line: *Line2
+  time_schedule:
+    - 15:30:00
+    - 15:41:00
+    - 16:02:30
+    - 16:16:30
+    - 16:28:30
+    - 16:40:00
+    - 16:49:00
+    - 17:06:00
+    - 17:12:30
+    - 17:32:00
+    - 17:45:30
+    - 18:03:00
+    - 18:11:30
+    - 18:41:00
+    - 18:48:00
+  speed: 5
+- &Vehicle30 name: "Vozidlo30"
+  line: *Line2
+  time_schedule:
+    - 16:30:00
+    - 16:41:00
+    - 17:02:30
+    - 17:16:30
+    - 17:28:30
+    - 17:40:00
+    - 17:49:00
+    - 18:06:00
+    - 18:12:30
+    - 18:32:00
+    - 18:45:30
+    - 19:03:00
+    - 19:11:30
+    - 19:41:00
+    - 19:48:00
+  speed: 5
+- &Vehicle31 name: "Vozidlo31"
+  line: *Line2
+  time_schedule:
+    - 17:30:00
+    - 17:41:00
+    - 18:02:30
+    - 18:16:30
+    - 18:28:30
+    - 18:40:00
+    - 18:49:00
+    - 19:06:00
+    - 19:12:30
+    - 19:32:00
+    - 19:45:30
+    - 20:03:00
+    - 20:11:30
+    - 20:41:00
+    - 20:48:00
+  speed: 5
+- &Vehicle32 name: "Vozidlo32"
+  line: *Line2
+  time_schedule:
+    - 18:30:00
+    - 18:41:00
+    - 19:02:30
+    - 19:16:30
+    - 19:28:30
+    - 19:40:00
+    - 19:49:00
+    - 20:06:00
+    - 20:12:30
+    - 20:32:00
+    - 20:45:30
+    - 21:03:00
+    - 21:11:30
+    - 21:41:00
+    - 21:48:00
+  speed: 5
+- &Vehicle33 name: "Vozidlo33"
+  line: *Line3
+  time_schedule:
+    - 08:45:00
+    - 08:53:30
+    - 09:26:00
+    - 09:52:00
+    - 10:22:00
+    - 10:58:30
+    - 11:28:30
+    - 11:44:30
+    - 12:11:00
+    - 12:36:30
+    - 12:59:00
+    - 13:27:30
+    - 13:48:30
+  speed: 4
+- &Vehicle34 name: "Vozidlo34"
+  line: *Line3
+  time_schedule:
+    - 09:45:00
+    - 09:53:30
+    - 10:26:00
+    - 10:52:00
+    - 11:22:00
+    - 11:58:30
+    - 12:28:30
+    - 12:44:30
+    - 13:11:00
+    - 13:36:30
+    - 13:59:00
+    - 14:27:30
+    - 14:48:30
+  speed: 4
+- &Vehicle35 name: "Vozidlo35"
+  line: *Line3
+  time_schedule:
+    - 10:45:00
+    - 10:53:30
+    - 11:26:00
+    - 11:52:00
+    - 12:22:00
+    - 12:58:30
+    - 13:28:30
+    - 13:44:30
+    - 14:11:00
+    - 14:36:30
+    - 14:59:00
+    - 15:27:30
+    - 15:48:30
+  speed: 4
+- &Vehicle36 name: "Vozidlo36"
+  line: *Line3
+  time_schedule:
+    - 11:45:00
+    - 11:53:30
+    - 12:26:00
+    - 12:52:00
+    - 13:22:00
+    - 13:58:30
+    - 14:28:30
+    - 14:44:30
+    - 15:11:00
+    - 15:36:30
+    - 15:59:00
+    - 16:27:30
+    - 16:48:30
+  speed: 4
+- &Vehicle37 name: "Vozidlo37"
+  line: *Line3
+  time_schedule:
+    - 12:45:00
+    - 12:53:30
+    - 13:26:00
+    - 13:52:00
+    - 14:22:00
+    - 14:58:30
+    - 15:28:30
+    - 15:44:30
+    - 16:11:00
+    - 16:36:30
+    - 16:59:00
+    - 17:27:30
+    - 17:48:30
+  speed: 4
+- &Vehicle38 name: "Vozidlo38"
+  line: *Line3
+  time_schedule:
+    - 13:45:00
+    - 13:53:30
+    - 14:26:00
+    - 14:52:00
+    - 15:22:00
+    - 15:58:30
+    - 16:28:30
+    - 16:44:30
+    - 17:11:00
+    - 17:36:30
+    - 17:59:00
+    - 18:27:30
+    - 18:48:30
+  speed: 4
+- &Vehicle39 name: "Vozidlo39"
+  line: *Line3
+  time_schedule:
+    - 14:45:00
+    - 14:53:30
+    - 15:26:00
+    - 15:52:00
+    - 16:22:00
+    - 16:58:30
+    - 17:28:30
+    - 17:44:30
+    - 18:11:00
+    - 18:36:30
+    - 18:59:00
+    - 19:27:30
+    - 19:48:30
+  speed: 4
+- &Vehicle40 name: "Vozidlo40"
+  line: *Line3
+  time_schedule:
+    - 15:45:00
+    - 15:53:30
+    - 16:26:00
+    - 16:52:00
+    - 17:22:00
+    - 17:58:30
+    - 18:28:30
+    - 18:44:30
+    - 19:11:00
+    - 19:36:30
+    - 19:59:00
+    - 20:27:30
+    - 20:48:30
+  speed: 4
+- &Vehicle41 name: "Vozidlo41"
+  line: *Line3
+  time_schedule:
+    - 16:45:00
+    - 16:53:30
+    - 17:26:00
+    - 17:52:00
+    - 18:22:00
+    - 18:58:30
+    - 19:28:30
+    - 19:44:30
+    - 20:11:00
+    - 20:36:30
+    - 20:59:00
+    - 21:27:30
+    - 21:48:30
+  speed: 4
